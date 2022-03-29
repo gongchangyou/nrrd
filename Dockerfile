@@ -7,3 +7,5 @@ RUN apt-get update && \
 # install paraview
 RUN	apt-get install -y paraview && \
 	apt-get install -y python3-paraview
+
+COPY hello.py /tmp/hello.py
